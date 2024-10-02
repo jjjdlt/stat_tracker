@@ -10,8 +10,7 @@ if not RIOT_API_TOKEN:
     raise ValueError("Riot Games API token is missing in environment variables")
 
 class RiotAPI:
-    def __init__(self, api_token: str):
-        self.api_token = api_token
+    def __init__(self):
         self.api_token = RIOT_API_TOKEN
 
     # func for getting puuid from riot
