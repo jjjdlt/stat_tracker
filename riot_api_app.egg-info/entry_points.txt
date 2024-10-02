@@ -1,0 +1,2 @@
+[console_scripts]
+riot-api-app = app.main:main

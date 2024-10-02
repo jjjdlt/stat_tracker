@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'riot-api-app=main:app',    # Entry point to run the FastAPI app
+            'riot-api-app=app.main:main',    # Entry point to run the FastAPI app
         ]
     },
     classifiers=[
