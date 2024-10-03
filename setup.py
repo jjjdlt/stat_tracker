@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="riot-api-app",                # Your package name
-    version="0.1",
+    version="0.2.0",
     description="A FastAPI app that integrates with Riot Games API",
     author="Your Name",
     author_email="your.email@example.com",
